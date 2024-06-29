@@ -14,6 +14,10 @@
 
 }
 
+body {
+    font-size: 1.6rem;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -76,4 +80,86 @@ header nav ul li a {
 
 .banner-titulo a:hover {
     background-color: #f3bc1a;
+}
+
+/* seção de cursos */
+
+
+
+
+.cursos-pai {
+    display: flex;
+    gap: 2.0rem;
+    justify-content: center;
+}
+
+.principais-cursos {
+    margin: 2.0rem 0rem;
+}
+.principais-cursos h2 {
+    text-align: center;
+}
+
+
+.curso {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    max-width: 33.0rem;
+}
+
+.curso img {
+    max-width: 33.0rem;
+}
+
+.text-curso {
+    padding: 1.0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.0rem;
+}
+.curso p {
+    width: 31.0rem;
+}
+
+/* bannner secundario do site */
+
+.banner-secundario {
+    padding: 3.0rem 3.0rem 0rem 3.0rem;
+    background-color: var(--color-secondary);
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 4.0rem;
+    justify-content: center;
+}
+
+.text-banner-2 h2 {
+    margin-bottom: 2.0rem;
+}
+
+.text-banner-2 p {
+    max-width: 44.0rem;
+    line-height: 2.3rem;
+}
+
+/* contatos do site */
+.contatos {
+    text-align: center;
+}
+
+.contatos h2 {
+    margin-top: 5.0rem;
+    margin-bottom: 2.0rem;
+}
+
+.contatos p {
+    margin: 1.0rem 0rem;
+}
+
+/* footer do sirte */
+
+footer {
+    background-color: #091822;
+    color: white;
+    text-align: center;
+    padding: 2.0rem;
 }
